@@ -1,0 +1,114 @@
+export const projectInfo = [
+    {
+        title: "Play Action Picks",
+        videos: [
+            {
+                id: 1,
+                // src: require('../images/Creating_A_League.mp4'),
+                src: "https://youtu.be/Ak27r2yO9rs",
+                description: "Creating A League"
+            },
+            {
+                id: 2,
+                src: "https://youtu.be/nzHTNO5HpUY",
+                description: "Validations"
+            },
+            {
+                id: 3,
+                src: "https://youtu.be/IixEAH6skBU",
+                description: "Dashboard"
+            },
+            {
+                id: 4,
+                src: "https://youtu.be/JKzyc4Jdc9c",
+                description: "Joining A League"
+            },
+            {
+                id: 4,
+                src: "https://youtu.be/1dK1QNWXJjI",
+                description: "Displaying League Info and Editing Ability for League Commissioner"
+            },
+        ],
+        youtube: "https://youtu.be/fOZ-j2fXxWI",
+        github: "https://github.com/BLew10/confidence_pickem.git",
+        technologies: "MongoDB, Express, React, Node.js, Tailwind, Axios AWS",
+        description: "Play Action Picks gamified NFL pick’em platform where friends can compete to see who’s the best at selecting which teams will win each week.",
+        highlights: [
+            "Used Axios to make HTTP request to SportsRadarAPI to retrieve live NFL data and to handle client to server communication",
+            "Prioritized security by implementing Bcrypt to encrypt sensitive user information and by leveraging the power of JSON Web tokens to securely transmit information between the client and server"
+            ,
+            "Powered by the React library to create a dynamic user experience and limit page redirects and refreshes"
+            ,
+            "Developed backend validations to verify information being submitted",
+            "Architected a responsive design with Tailwinds for a consistent user experience"
+        ],
+        bgColor: "3c68ff",
+        deployed: "http://18.117.110.164/",
+        isWireframe: false
+    },
+    {
+        title: "Trade Champs",
+        videos: [
+            {
+                id: 1,
+                src: "https://youtu.be/t_kGaduQnpI",
+                description: "Landing Page"
+            },
+            {
+                id: 2,
+                src:"https://youtu.be/eYirt8FGBUU",
+                description: "Trade Calculator"
+            },
+            {
+                id: 3,
+                src: "https://youtu.be/qh8WKO5rtTM",
+                description: "Pulling Sleeper Leagues via their API and displaying desired league"
+            }
+        ],
+        youtube: "https://youtu.be/6mj-xygIpg4",
+        github: "https://github.com/BLew10/trade_champs.git",
+        technologies: "Python, Flask, MySQL, Jinja2,  Javascript,  Tailwind, AWS",
+        description: "Trade Champs is an application designed for fantasy football players to help with their fantasy roster decisions",
+        highlights: [
+            " Integrated Sleeper App API data via Python requests to get users, players, rosters and leagues",
+            "Stored relevant player information for over 15000 NFL players into MySQL via Sleeper API"
+            ,
+            "Leveraged Flask framework for routing and quick implementation of different features using Jinja2 syntax."
+            ,
+            "Employed Javascript to create a more dynamic UX"
+        ],
+        bgColor: "ffcae0",
+        deployed: "http://3.144.154.242/",
+        isWireFrame: false
+    },
+    {
+        title: "WireFrames",
+        isWireFrame: true,
+        bgColor: "ff3535",
+        projects: [
+            {
+                title: "Tesla Clone",
+                description: "E-commerce site with product details, add-to-cart functionality and more!",
+                videos: [{
+                    id: 1,
+                    src: "https://youtu.be/cD0Z4NTCnSk",
+                    description: "Mobile Version"
+                },
+                {
+                    id: 2,
+                    src: "https://youtu.be/LxRrAGAs6M0",
+                    description: "Desktop Version"
+                }
+                ],
+                github: "https://github.com/BLew10/Tesla",
+                technologies: "React, Tailwind"
+            }
+
+        ],
+
+    }
+
+];
+
+//ff3535 27996b 3c68ff ffd438 fb3434
+
