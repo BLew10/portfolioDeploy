@@ -20,7 +20,7 @@ const MyStory = () => {
         to: 2017
       },
       role: "Student-Athlete | Football ",
-      company: "Unviversity of Washington",
+      company: "University of Washington",
       location: "Seattle, WA",
       content:
         "While at the University of Washington, our team won the Pac-12 Championship and were College Football Playoff Finalist in 2016. Individually, I was able to earn All-Academic Pac-12 First Team Honors during the 2015 season. My football career unfortunately ended after a fifth surgery in 2017."
@@ -31,7 +31,7 @@ const MyStory = () => {
         to: 2019
       },
       role: "Football Recruiting Assistant",
-      company: "Unviversity of Washington",
+      company: "University of Washington",
       location: "Seattle, WA",
       content:
         "Following my athletic career, I served as a football recruiting assistant to the Director of Player Personnel. The recruiting classes during my two year stint were among the top 20 in the country. I was able to graduate with a 3.45 GPA, BA in Mathematics and began pursuing a future as a physician. "
@@ -63,7 +63,7 @@ const MyStory = () => {
         from: 2022,
         to: "Present"
       },
-      role: "Full-Stack Developer",
+      role: "Full-Stack Engineer",
       company: "Open to Work",
       location: "Sacramento, CA",
       content:
