@@ -23,7 +23,7 @@ const MyStory = () => {
       company: "Unviversity of Washington",
       location: "Seattle, WA",
       content:
-        "While at the University of Washington, our team won the Pac-12 Championship and were College Football Playoff Finalist in 2016. Individually, I was able to earn All-Academic Pac-12 First Term Honors during the 2015 season. My football career unfortunately ended after a fifth surgery in 2017."
+        "While at the University of Washington, our team won the Pac-12 Championship and were College Football Playoff Finalist in 2016. Individually, I was able to earn All-Academic Pac-12 First Team Honors during the 2015 season. My football career unfortunately ended after a fifth surgery in 2017."
     },
     {
       date: {
