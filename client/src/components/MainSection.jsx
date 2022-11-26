@@ -24,23 +24,25 @@ const MainSection = () => {
     }
 
     const subsection = (tab = "About Me") => {
-        if( tab === "About Me"){
+        if (tab === "About Me") {
             setCurrentSubSection(<AboutMe />)
-        } else if( tab === "Projects"){
+        } else if (tab === "Projects") {
             setCurrentSubSection(<Projects />)
         } else {
-            setCurrentSubSection(<MyStory/>)
+            setCurrentSubSection(<MyStory />)
         }
         console.log(tab)
     }
     return (
-        <div className='rounded  w-[90%] mx-auto lg:basis-1/2 my-10'>
+        <div className={`w-[90%]  mx-auto lg:basis-1/2 my-1`}>
             <div className='flex justify-center items-center [&>*]:basis-1/3 border-2 border-[#4C3831] '>
                 <div onClick={handleClick} className={`${tabs["About Me"] ? "bg-[#4C3831] text-white" : ""} basis-1/3 hover:cursor-pointer `}>About Me</div>
                 <div onClick={handleClick} className={`${tabs["Projects"] ? "bg-[#4C3831] text-white" : ""} hover:cursor-pointer `} >Projects</div>
                 <div onClick={handleClick} className={`${tabs["My Story"] ? "bg-[#4C3831] text-white" : ""} hover:cursor-pointer `}>My Story</div>
             </div>
-            {currentSubSection}
+            <div className={`rounded ${tabs["My Story"] && "-mx-[22px]"}`}>
+                {currentSubSection}
+            </div>
         </div>
     )
 }

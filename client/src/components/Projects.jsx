@@ -29,10 +29,10 @@ const Projects = () => {
   return (
     <div className="">
 
-      <div className=' border-black lg:w-2/3 items-center justify-center rounded flex mx-auto my-5 '>
+      <div className=' border-black lg:w-[90%] items-center justify-center roundedf flex md:flex-row mx-auto my-5 w-full flex-col '>
         {projectInfo.map((project, idx) =>
-          <div className={` basis-1/2 hover:cursor-pointer ${projectsToggle[project.title] && "bg-gradient-to-r px-[5px] py-[5px] from-[#3c68ff] via-[#27996b] to-[#f78748] rounded-lg hover:scale-[97%] duration-300 "}`}>
-            <div className={` bg-[#dad7c8]  font-semibold text-black basis-1/2  items-center justify-center text-center ${projectsToggle[project.title] ? "font-bold border-2 border-black rounded " : ""}`} onClick={() => handleClick(project.title, idx)}>{project.title}</div>
+          <div className={` basis-1/3 hover:cursor-pointer  my-2 w-full ${projectsToggle[project.title] && "bg-gradient-to-r px-[5px] md:py-[5px] py-[5px]  from-[#3c68ff] via-[#27996b] to-[#f78748] rounded-lg hover:scale-[97%] duration-300 "}`}>
+            <div className={` bg-[#dad7c8]  md:my-0 h-[100%] font-semibold text-black basis-1/2 items-center justify-center text-center ${projectsToggle[project.title] ? "font-bold border-2 border-black rounded " : ""}`} onClick={() => handleClick(project.title, idx)}>{project.title}</div>
 
           </div>
         )}
