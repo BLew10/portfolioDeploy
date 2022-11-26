@@ -12,9 +12,9 @@ const SubSection = (props) => {
         <div className="static-txt font-bold text-black basis-1/2 text-5xl text-right">I am a</div>
         <ul className="dynamic-txts bg-white [&>*]:font-bold mx-0  text-3xl text-center">
           <li><span className="text-[#ff3535] border-[#ff3535] font-bold ">Creator.</span></li>
-          <li><span className="text-[#27996b] border-[#27996b] font-bold ">Learner.</span></li>
           <li><span className="text-[#3c68ff] border-[#3c68ff] font-bold ">Developer.</span></li>
           <li><span className="text-[#ffcae0] border-[#ffcae0] font-bold ">Team Player.</span></li>
+          <li><span className="text-[#27996b] border-[#27996b] font-bold "> Lifelong Learner.</span></li>
 
         </ul>
       </div>
