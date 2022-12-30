@@ -1,30 +1,17 @@
 import React from 'react'
 import './style.css'
+import TechnicalSkills from './TechSkills'
 
 
 
 
 const SideBar = () => {
 
-    const downloadTxtFile = () => {
-        // text content
-        const texts = ["line 1", "line 2", "line 3"]
-    // file object
-        const file = new Blob(texts, {type: 'text/plain'});
-    // anchor link
-        const element = document.createElement("a");
-        element.href = URL.createObjectURL("./resume.pdf");
-        element.download = "100ideas-" + Date.now() + ".txt";
-    // simulate link click
-        document.body.appendChild(element); // Required for this to work in FireFox
-        element.click();
-    }
-
     return (
 
         <div className=" flex flex-col items-center lg:basis-1/4 w-full">
             <div className=" flex flex-col items-center justify-center">
-                <img src="https://i.imgur.com/i30nwTk.png" alt="" className='rounded bg-[#dad7c8] my-8 shadow-lg shadow-[#dad7c8] h-[300px] w-[300px]' />
+                <img src="https://i.imgur.com/i30nwTk.png" alt="" className='rounded bg-[#dad7c8] my-8 h-[300px] w-[300px] border-[5px] border-white' />
 
                 <div
                     className=" px-5 py-10 bg-white flex flex-col items-center justify-around basis-3/4 rounded shadow-2xl shadow-[#dad7c8]
@@ -81,17 +68,18 @@ const SideBar = () => {
                         </div>
                     </div>
                     <div className="flex justify-center items-center mx-0 my-5  shadow-[#dad7c8] py-4 hover:bg-gradient-to-r px-[5px] py-[5px] from-[#3c68ff] via-[#27996b] to-[#f78748] rounded-lg hover:scale-[97%] duration-300">
-                         <button
+                        <button
                             className=" self-center bg-[#dad7c8]  duration-300 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
                             <svg className="fill-current w-4 h-4 mr-2 text-[#" xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 20 20">
                                 <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
                             </svg>
-                        <a href='BrandonLewisCV.pdf' download={'BrandonLewisCV.pdf'}>Download CV</a>
+                            <a href='BrandonLewisResume.pdf' download={'BrandonLewisResume.pdf'}>Download Resume</a>
                         </button>
                     </div>
+            
                 </div>
-
+                
             </div>
 
         </div>

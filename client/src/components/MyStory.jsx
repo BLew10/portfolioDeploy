@@ -12,7 +12,7 @@ const MyStory = () => {
       company: "Pleasant Grove High School",
       location: "Elk Grove, CA",
       content:
-        "I had the privilege of being a varsity player for three years. During that time, I had three career altering injuries, two of which led to surgery. I battled back to return to the athlete I previous was and earned a full-ride scholarship to the University of Washington Football Program."
+        "As a student at Pleasant Grove High School, I was fortunate to have the opportunity to play varsity football for three years. However, I also faced several injuries during this time, two resutling in season-ending surgeries. Despite these setbacks, I worked hard to return to my previous level of athletic performance and earned a full-ride scholarship to the University of Washington Football Program."
     },
     {
       date: {
@@ -23,7 +23,7 @@ const MyStory = () => {
       company: "University of Washington",
       location: "Seattle, WA",
       content:
-        "While at the University of Washington, our team won the Pac-12 Championship and were College Football Playoff Finalist in 2016. Individually, I was able to earn All-Academic Pac-12 First Team Honors during the 2015 season. My football career unfortunately ended after a fifth surgery in 2017."
+        "While at the University of Washington, I was a member of the football team that won the Pac-12 Championship and reached the College Football Playoff Final in 2016. I also received All-Academic Pac-12 First Team Honors during the 2015 season. Unfortunately, my football career came to an end after a fifth surgery in 2017."
     },
     {
       date: {
@@ -34,7 +34,7 @@ const MyStory = () => {
       company: "University of Washington",
       location: "Seattle, WA",
       content:
-        "Following my athletic career, I served as a football recruiting assistant to the Director of Player Personnel. The recruiting classes during my two year stint were among the top 20 in the country. I was able to graduate with a 3.45 GPA, BA in Mathematics and began pursuing a future as a physician. "
+        "After my athletic career ended, I served as a football recruiting assistant to the Director of Player Personnel at the University of Washington. During my two years in this role, our recruiting classes ranked among the top 20 in the country. I graduated with a Bachelor's degree in Mathematics and began preparing for a career in medicine."
     },
     {
       date: {
@@ -45,7 +45,7 @@ const MyStory = () => {
       company: "Medical College Admissions Test (MCAT) Score: 514 (89th Percentile)",
       location: "Sacramento, CA",
       content:
-        "Prior to applying, I spent a year as a Medical Scribe in the Emergency Department. During the application process, I receiveed multiple full-tuition scholarships and ultimately decided to attend Kaiser Permanente School of Medicine. "
+        "Before applying to medical school, I spent a year as a Medical Scribe in the Emergency Department. During the application process, I received multiple full-tuition scholarships and ultimately chose to attend the Kaiser Permanente School of Medicine. "
     },
     {
       date: {
@@ -53,10 +53,10 @@ const MyStory = () => {
         to: 2022
       },
       role: "Medical Student",
-      company: "Bernard J. Tyson School of Medicine",
+      company: " Kaiser Permanete Bernard J. Tyson School of Medicine",
       location: "Pasadena, CA",
       content:
-        "Although cut short, my experience in medical school was an incredible one. I thoroughly enjoyed the practice of medicine and the community I shared it with. However, there was an itch that medicine did not scratch. I could no longer justify the sacrifice to become a physician due to the lack of true passion for field. After many months of thought and discussion, I decided to pivot into tech."
+        "Although my time in medical school was brief, it was a rewarding experience. I enjoyed practicing medicine and being part of the medical community, but ultimately I realized that my true passion lay elsewhere. I valued fulfillment, relationships, and time. Medicine didn't fit what I wanted to my life to look like. Tech, was a field I had always admired from afar ever since taking a computer science course during undergrad. That passion that I had After much reflection and discussion, I decided to pivot towards a career in technology."
     },
     {
       date: {
@@ -67,7 +67,7 @@ const MyStory = () => {
       company: "Open to Work",
       location: "Sacramento, CA",
       content:
-        `It has been amazing to have my passion and career intertwine. All the obstacles, roads, and lessons have led me to where I am today and I'm excited for what's to come.
+        `I am now excited to be embarking on a career as a Full-Stack Engineer, and feel grateful to have my passion and career intersecting at this point in my journey. All of the challenges and experiences I have encountered along the way have led me to where I am today, and I am looking forward to what the future holds.
         `
     },
 
@@ -182,7 +182,7 @@ const MyStory = () => {
     };
 
     return (
-      <div className="bg-white" ref={scrollArea}>
+      <div className="" ref={scrollArea}>
         <section className="header">
           <div className="container">
             <h1 className='italic border-b-2 border-[#4C3831]'>My Story

@@ -24,7 +24,8 @@ h5 {
   margin: 0 auto;
   max-width: 1200px;
   text-align: center;
-  width: 90%;
+  width: 80%;
+  overflow-x: hidden;
 }
 h1 {
 
@@ -151,7 +152,7 @@ time {
     margin-left: 20px;
   }
   .timeline ul li div {
-    width: calc(100vw - 91px);
+    width: calc(100vw - 100px);
   }
   .timeline ul li:nth-child(even) div {
     left: 45px;

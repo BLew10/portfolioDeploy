@@ -1,5 +1,31 @@
 export const projectInfo = [
     {
+        title: "Palette Genie",
+        videos: [
+            {
+                id: 1,
+                src: "https://www.youtube.com/watch?v=pp5UhcTrJyw",
+                description: "Full Description"
+            }
+        ],
+        youtube: "https://www.youtube.com/watch?v=pp5UhcTrJyw",
+        github: "https://github.com/BLew10/ColorPalette",
+        technologies: "React, C#,  OpenAI API, Tailwind, Material UI, Axios, MySQL, Chroma.js",
+        description: "Palette Genie is a palette generator tool that enables users to create custom palettes, save other users' palettes, or generate palettes using AI  ",
+        highlights: [
+            "Frontend was built using React to optimize component rendering and unidirectional dataflow"
+            ,
+            "Backend was built wit C# due to its statically typed nature, limiting errors thus making the application easier to maintain"
+            ,
+            "Accelerated development by utilizing multiple prebuilt Material UI components",
+            "Employed the OpenAI API to respond appropriately to user inputs regarding the desired number of colors and palette style",
+            "Leveraged the functionality of Chroma.js to easily access, manipulate and use color characteristics"
+        ],
+        bgColor: "ffcae0",
+  
+        isWireFrame: false
+    },
+    {
         title: "Play Action Picks",
         videos: [
             {
@@ -81,6 +107,7 @@ export const projectInfo = [
         deployed: "http://3.144.154.242/",
         isWireFrame: false
     },
+    
     {
         title: "WireFrames",
         isWireFrame: true,
