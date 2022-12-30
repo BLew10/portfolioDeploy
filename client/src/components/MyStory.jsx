@@ -185,9 +185,7 @@ const MyStory = () => {
       <div className="" ref={scrollArea}>
         <section className="header">
           <div className="container">
-            <h1 className='italic border-b-2 border-[#4C3831]'>My Story
-              </h1>
-
+            <h1 className='italic border-b-2 border-[#4C3831] text-5xl'>My Story</h1>
           </div>
         </section>
 
