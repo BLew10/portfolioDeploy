@@ -25,10 +25,9 @@ h5 {
   max-width: 1200px;
   text-align: center;
   width: 80%;
-  overflow-x: hidden;
+
 }
 h1 {
-
   font-size: 3.5rem;
 }
 .timeline ul {
