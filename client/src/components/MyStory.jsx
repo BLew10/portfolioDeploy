@@ -56,7 +56,7 @@ const MyStory = () => {
       company: " Kaiser Permanete Bernard J. Tyson School of Medicine",
       location: "Pasadena, CA",
       content:
-        "Although my time in medical school was brief, it was a rewarding experience. I enjoyed many aspects of practicing medicine and being part of the medical community. However, I realized that my true passion lay elsewhere. I value relationships and time, and I found that pursuing a career in medicine required me to sacrifice both of these things. After careful reflection and discussion, I decided to pivot towards a career in technology. This is a field that I have always admired, ever since taking a computer science course during my undergraduate studies. It fits my values and personality seamlessly and because of that it was a passion worth exploring."
+        "Although my time in medical school was brief, it was a rewarding experience. I enjoyed many aspects of practicing medicine and being part of the medical community. However, I realized that my true passion lay elsewhere. I value relationships and time, and I found that pursuing a career in medicine required me to sacrifice both of these things. After careful reflection and discussion, I decided to pivot towards a career in technology."
     },
     {
       date: {
