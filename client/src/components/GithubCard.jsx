@@ -13,7 +13,7 @@ const GithubCard = () => {
 
     return (
         <>
-            <h1 className >
+            <h1 className="text-5xl my-10" >
                 Days I <strong>Code</strong>
             </h1>
             <GitHubCalendar
