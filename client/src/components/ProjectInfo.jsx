@@ -13,7 +13,7 @@ export const projectInfo = [
         technologies: "React, C#,  OpenAI API, Tailwind, Material UI, Axios, MySQL, Chroma.js",
         description: "Palette Genie is a palette generator tool that enables users to create custom palettes, save other users' palettes, or generate palettes using AI  ",
         highlights: [
-            "Frontend was built using React to optimize component rendering and unidirectional dataflow"
+            "Frontend was built using React to optimize component rendering"
             ,
             "Backend was built wit C# due to its statically typed nature, limiting errors thus making the application easier to maintain"
             ,
@@ -30,7 +30,6 @@ export const projectInfo = [
         videos: [
             {
                 id: 1,
-                // src: require('../images/Creating_A_League.mp4'),
                 src: "https://youtu.be/Ak27r2yO9rs",
                 description: "Creating A League"
             },
@@ -66,7 +65,7 @@ export const projectInfo = [
             "Powered by the React library to create a dynamic user experience and limit page redirects and refreshes"
             ,
             "Developed backend validations to verify information being submitted",
-            "Architected a responsive design with Tailwinds for a consistent user experience"
+            "Architected a responsive design with Tailwind for a consistent user experience"
         ],
         bgColor: "3c68ff",
         deployed: "http://18.117.110.164/",

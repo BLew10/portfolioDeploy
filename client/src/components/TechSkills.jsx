@@ -1,5 +1,5 @@
 import React from 'react'
-import { Col } from 'react-bootstrap'
+import GithubCard from './GithubCard';
 
 import { DiJavascript1, DiReact, DiNodejs, DiMongodb, DiPython, DiGit, DiMysql } from "react-icons/di";
 import { SiAmazonaws, SiGithub, SiPostman, SiJinja, SiFlask, SiBlazor, SiTailwindcss, SiCsharp, SiBootstrap } from "react-icons/si";
@@ -108,6 +108,7 @@ const TechnicalSkills = () => {
                     </div>
                 </div>
             </div>
+            <GithubCard />
         </div >
     )
 }
