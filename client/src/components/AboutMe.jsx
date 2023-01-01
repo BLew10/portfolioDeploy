@@ -37,10 +37,10 @@ const SubSection = (props) => {
       '>
 
         <p>
-          Hello! My name is Brandon Lewis. I am a Full-Stack Engineer located in Sacramento, CA. For the past seven years, I had been pursuing a career in medicine. However, after a year in medical school and careful reflection on my values and passions, I decided to pivot toward a career in technology, a field that I have always admired. My natural inclination towards a technical and systematic approach, along with my degree in mathematics, has made this transition into programming an extremely smooth one!
+          Hello! My name is <strong>Brandon Lewis</strong> . I am a <strong>Full-Stack Engineer</strong> located in <strong>Sacramento, CA</strong>. For the past seven years, I had been pursuing a career in medicine. However, after a year in medical school and careful reflection on my values and passions, I decided to pivot toward a career in technology, a field that I have always admired. My natural inclination towards a <strong>technical</strong> and <strong>systematic</strong> approach, along with my degree in <strong>mathematics</strong>, has made this transition into programming an extremely smooth one!
         </p>
 
-        <p>Life to me is about growth, overcoming obstacles, and being better than you were yesterday in all facets. I will never grow weary of improving as a developer, teammate/coworker and individual. I look forward to connecting with you! Feel free to reach out via LinkedIn, email or cell.
+        <p>Life to me is about <strong>growth</strong>, <strong>overcoming obstacles</strong>, and <strong>being better</strong> than you were yesterday in <strong>all facets</strong>. I will never grow weary of improving as a <strong>developer</strong>, <strong>teammate/coworker</strong> and <strong>individual</strong>. I look forward to connecting with you! Feel free to reach out via LinkedIn, email or cell.
         </p>
 
       </p>
