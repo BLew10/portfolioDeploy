@@ -68,7 +68,7 @@ export const projectInfo = [
             "Architected a responsive design with Tailwind for a consistent user experience"
         ],
         bgColor: "3c68ff",
-        deployed: "http://18.117.110.164/",
+        deployed: "http://3.17.205.149/",
         isWireframe: false
     },
     {
